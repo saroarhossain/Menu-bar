@@ -1,0 +1,241 @@
+
+header{}
+
+header nav{
+    background: #545353 !important;
+    padding-right: 30px !important;
+    padding-left: 25px !important;
+} 
+header nav.navbar.navbar-expand-lg.navbar-light {
+
+}
+.navbar-brand{}
+.navbar-brand h1{
+    color: #00BCD4;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.navbar-nav{}
+.navbar-nav{}
+.navbar-nav .nav-item{
+    padding-right: 3px;
+}
+.dropdown .list-unstyled {
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #08d6f0 !important;
+}
+
+i.fas.fa-shopping-cart {
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+i.fas.fa-user {
+    font-size: 15px;
+    padding-right: 3px;
+}
+
+.landing{}
+.landing h3{
+    color: #08d6f0 !important;
+    /* text-align: center; */
+    margin-left: 25px !important;
+}
+.landing ul {}
+.landing ul li {
+    padding: 8px;
+}
+.landing ul li i {
+    font-size: 20px !important;
+}
+.landing ul li a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: #656161;
+    font-weight: 600;
+    font-size: 16px;
+}
+.landing ul li p{
+    margin: 0;
+    font-size: 12px;
+    padding: 5px 0;
+    color: #888;
+}
+
+.dropdown .dropdown-item {
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px 20px;
+    font-family: monospace;
+}
+.dropdown .dropdown-item:hover{
+    color: #14aabd !important;
+}
+.dropdown-menu{
+    display: block;
+    visibility: hidden;
+    transform: translatey(100px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.21, 0, 0.24, 0.71);
+}
+.dropdown-menu h3 {
+    font-size: 19px;
+    padding: 0 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    /* text-decoration: underline; */
+}
+.dropdown-menu .nav-link {
+    padding: 3px 15px !important;
+}
+.dropdown-menu .nav-link .nav-item{
+    color: #888;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400 !important;
+    font-family: sans-serif;
+}
+.dropdown-menu .nav-link .nav-item:hover{
+    color: #14aabd !important;
+}
+.dropdown:hover .dropdown-menu{
+
+visibility: visible;
+
+transform: translateY(0);
+
+opacity: 1;
+}
+.dropdown.megamenu{
+    position:static; ;
+    visibility: visible;
+}
+
+.dropdown.megamenu .dropdown-menu{
+    /* visibility: visible; */
+    opacity: 1;
+    padding: 20px;
+    width: 100%;
+    background: #f1f1f1;
+    margin-top: 0;
+}
+
+.dropdown.megamenu:hover .dropdown-menu{
+    /* transform: translate(-50%,0); */
+    padding: 20px;
+    /* display: block; */
+}
+section.slide-section {
+ margin: 30px 0 60px;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.slide-section .container-fluid {
+    border-bottom: 1px solid rgba(132, 132, 132, 0.15) !important;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+.right-menu{}
+.right-menu ul{
+    /* display: block; */
+    /* margin: inherit; */
+}
+.right-menu ul li{
+    padding: 2px 5px;
+    padding-left: 15px;
+}
+.right-menu ul li a{
+    /* border-bottom: 1px solid #555; */
+    padding: 6px 0;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.right-menu ul li a:hover{
+    color: #08d6f0 !important;
+}
+.right-menu ul h1{
+    font-size: 23px;
+    color: #737373;
+    font-weight: 700;
+    background: #ecebeae3;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pic img {
+    /* height: 175px; */
+    width: 182px;
+}
+
+.details p {
+    /* padding: 10px 0; */
+    font-size: 20px;
+    font-weight: 700;
+    color: #737373;
+}
+button.btn.btn-primary.rounded-pill {
+    font-size: 13px;
+    padding-right: 15px;
+    /* margin: 0; */
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.details button {
+    margin: 5px;
+}
+.details span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    color: #888;
+    display: block;
+}
+
+.col-md-4.col-sm-6.col-10.d-flex {
+    margin-top: 20px !important;
+}
+.pic {
+    width: 189px;
+}
+.hot-sales {
+    display: flex;
+    /* border: 1px solid #ccc9c9b3; */
+    align-items: center;
+    box-shadow: 0 15px 50px 6px #403e3e21;
+}
+.details {
+    padding-left: 10px;
+}
+.banner-section{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.banner-section img{
+    padding: 10px 0;
+}
